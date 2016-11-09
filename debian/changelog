@@ -1,10 +1,16 @@
+nccl (1.2.3-1+cuda8.0-3.1rc1) xenial; urgency=medium
+
+  * Added support for POWER 
+
+ -- Deepali Chourasia <deepali@us.ibm.com>  Wed, 9 Nov 2016 22:45:01 -0600
+
 nccl (1.2.3-1+cuda8.0) trusty; urgency=medium
 
   * Make NCCL collectives work on communicators with only one rank
   * Changed CURAND generator to work on a wider set of platforms.
   * Only call the CUDA runtime.
 
- -- Sylvain Jeaugey <sjeaugey@nvidia.com> Mon, 13 Jun 2016 1:45:01 -0800
+ -- Sylvain Jeaugey <sjeaugey@nvidia.com>  Mon, 13 Jun 2016 1:45:01 -0800
 
 nccl (1.2.2-1+cuda8.0) trusty; urgency=medium
 
