@@ -1,2 +1,2 @@
 include/nccl.h usr/include
-lib/libnccl.so /usr/lib/x86_64-linux-gnu
+lib/libnccl.so /usr/lib/powerpc64le-linux-gnu

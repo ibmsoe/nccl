@@ -193,7 +193,7 @@ DEBTARGETS := $(patsubst %, $(DEBIANDIR)/%, $(DEBFILES))
 
 DEB_REVISION   ?= 1
 DEB_TIMESTAMP  := $(shell date -R)
-DEB_ARCH       ?= amd64
+DEB_ARCH       ?= ppc64el
 
 debian : $(DEBTARGETS)
 
