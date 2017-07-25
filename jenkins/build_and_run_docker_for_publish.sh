@@ -41,7 +41,7 @@ mkdir -p $CCACHE_DIR
 CONTAINER_NAME="build_and_run_docker_$(uuidgen)"
 
 # Run command inside docker
-docker run --rm --pid=host \
+docker run --pid=host \
   "$@" \
   -e CCACHE_DIR=$CCACHE_DIR \
   -e EXTERNAL_GIT_ROOT="/var/local/jenkins/nccl" \
